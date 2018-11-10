@@ -1,0 +1,17 @@
+package:
+  openjdk-8-jdk:amd64:
+    installed: true
+    versions:
+      - 8u171-b11-0ubuntu0.16.04.1
+  google-chrome-stable:
+    installed: true
+    versions:
+      - 67.0.3396.99-1
+command:
+  node -v:
+      title: Check if Node installed
+      exit-status: 0
+      stdout:
+      - v8.1.0
+      stderr: []
+      timeout: 5000
